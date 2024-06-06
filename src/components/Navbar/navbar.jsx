@@ -21,10 +21,10 @@ const Navbar = ({ onContactClick }) => {
           <span>Services</span>
           {dropdownVisible && (
             <ul className="dropdown-menu">
-              <li className="dropdown-item">School</li>
-              <li className="dropdown-item">Kindergarten</li>
-              <li className="dropdown-item">Social child project</li>
-              <li className="dropdown-item">Social teenager projects</li>
+              <li className="dropdown-item"><Link to="/school">School</Link></li>
+              <li className="dropdown-item"><Link to="/kindergarten">Kindergarten</Link></li>
+              <li className="dropdown-item"><Link to="/social-child-project">Social Child Project</Link></li>
+              <li className="dropdown-item"><Link to="/social-teenager-project">Social Teenager Projects</Link></li>
             </ul>
           )}
         </li>
